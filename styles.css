@@ -25,8 +25,12 @@ body {
 .button {
   background-color: #64b6ac;
   padding: 0.65rem 1rem;
-  box-shadow: 0 0.2rem 0.2rem #345f5a;
-  border: none;
+  /* box-shadow: 0 0.2rem 0.2rem #345f5a; */
+  border-right: 2px solid #345f5a;
+  border-bottom: 2px solid #345f5a;
+  border-top: none;
+  border-left: none;
+  /* border: none; */
   cursor: pointer;
   margin: 1rem auto 1rem;
   color: white;
