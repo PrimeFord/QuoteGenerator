@@ -52,3 +52,37 @@ p.foot {
   font-size: 1.25rem;
   margin-top: 0.5rem;
 }
+@media (max-width: 640px) {
+  :root {
+    font-size: 16px;
+  }
+  body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #b09e99;
+    display: flex;
+    /* justify-content: flex-start; */
+    align-items: center;
+  }
+  .container {
+    /* margin-left: 0.1rem; */
+    height: 38rem;
+    width: 21.5rem;
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    padding: 3rem;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+  }
+  .container p {
+    font-size: 1.65rem;
+    font-weight: 500;
+  }
+  p.foot {
+    width: 100%;
+    text-align: end;
+    color: #64b6ac;
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+  }
+}
